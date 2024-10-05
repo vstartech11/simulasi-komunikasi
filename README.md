@@ -16,8 +16,6 @@ This project simulates four different communication models: **Request-Response**
   - [Message Passing](#message-passing)
   - [RPC](#rpc)
 - [Docker Setup](#docker-setup)
-- [Folder Structure](#folder-structure)
-- [License](#license)
 
 ## About the Project
 
@@ -130,7 +128,3 @@ To run this project using Docker:
    ```bash
    docker run -p 80:80 simulasi-komunikasi
 5. Open your browser and navigate to http://localhost
-
-## Folder Structure
-
-simulasi-komunikasi/ │ ├── src/ │ ├── App.jsx # Main React component that handles routing │ ├── App.css # Styling for the application │ ├── components/ # Folder containing communication model components │ │ ├── MessagePassing.jsx # Component for Message Passing model │ │ ├── PublishSubscribe.jsx # Component for Publish-Subscribe model │ │ ├── RequestResponse.jsx # Component for Request-Response model │ │ ├── RPC.jsx # Component for RPC model │ ├── index.js # Entry point for the React app │ └── ... ├── Dockerfile # Docker configuration ├── package.json # Project dependencies and scripts └── README.md # This file
